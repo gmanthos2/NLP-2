@@ -1,7 +1,7 @@
 flowchart TD
     subgraph Init ["1. __init__() - Network Construction"]
         direction TB
-        A[Instantiate nn.Embedding] --> B{Pretrained Vectors<br/>Provided?}
+        A[Instantiate nn.Embedding] --> B{Use Glove<br/>Embeddings?}
         B -- Yes --> C[Copy Weights to Embedding Layer]
         C --> D{Freeze Embeddings?}
         D -- Yes --> E[Set requires_grad = False]
@@ -29,7 +29,7 @@ flowchart TD
         O --> P([Word Embeddings])
         P --> Q[RNN / LSTM Core]
         Q --> R([Sequence Outputs])
-        R --> S[Extract Last Timestep<br/>output[:, -1]]
+        R --> S[Extract Last Timestep<br/>output:, -1]
         S --> T[Linear Layer]
         T --> U([Logits])
         U --> V[Softmax]
