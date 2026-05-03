@@ -1,0 +1,45 @@
+flowchart TD
+    subgraph Init ["1. __init__() - Network Construction"]
+        direction TB
+        A[Instantiate nn.Embedding] --> B{Pretrained Vectors<br/>Provided?}
+        B -- Yes --> C[Copy Weights to Embedding Layer]
+        C --> D{Freeze Embeddings?}
+        D -- Yes --> E[Set requires_grad = False]
+        D -- No --> F{rnn_type == 'LSTM'?}
+        B -- No --> F
+        E --> F
+        
+        F -- Yes --> G[Select nn.LSTM class]
+        F -- No --> H[Select nn.RNN class]
+        
+        G --> I[Instantiate RNN/LSTM Core<br/>w/ bidirectionality & num_layers]
+        H --> I
+        
+        I --> J{Is Bidirectional?}
+        J -- Yes --> K[Linear Input Dim = hidden_dim * 2]
+        J -- No --> L[Linear Input Dim = hidden_dim]
+        
+        K --> M[Instantiate nn.Linear<br/>Output Layer]
+        L --> M
+    end
+    
+    subgraph Forward ["2. forward() - Data Flow (During Training/Inference)"]
+        direction TB
+        N([Input: X_batch<br/>Tokens]) --> O[Embedding Layer]
+        O --> P([Word Embeddings])
+        P --> Q[RNN / LSTM Core]
+        Q --> R([Sequence Outputs])
+        R --> S[Extract Last Timestep<br/>output[:, -1]]
+        S --> T[Linear Layer]
+        T --> U([Logits])
+        U --> V[Softmax]
+        V --> W([Output: Class Probabilities])
+    end
+
+    %% Visual Styling
+    style N fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    style W fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style B fill:#ffe0b2,stroke:#f57c00
+    style D fill:#ffe0b2,stroke:#f57c00
+    style F fill:#ffe0b2,stroke:#f57c00
+    style J fill:#ffe0b2,stroke:#f57c00

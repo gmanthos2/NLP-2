@@ -1,0 +1,29 @@
+flowchart TD
+    Start([Start Part_C_RNNs_Full_loop.ipynb]) --> Setup[Imports & Device Setup<br/>PyTorch, Gensim, Sklearn]
+    Setup --> Config[Set Global Hyperparameters<br/>Epochs, LR, Batch Size]
+    Config --> Funcs[Define Helper Functions<br/>Train, Evaluate, Count Params]
+    Funcs --> Model[Define RNNClassifier<br/>Supports RNN/LSTM, Bi-dir, GloVe]
+    
+    Model --> LoopSetup[Define 6 Architectures & 5 Variations]
+    
+    LoopSetup --> VarLoop{For each Variation}
+    
+    subgraph Execution ["Automated Evaluation Pipeline"]
+        direction TB
+        VarLoop -- "Next Variation" --> RunVar[Execute run_variation<br/>Data, Vocab, Train, Eval]
+        RunVar --> CheckBase{Is Base Variation?}
+        CheckBase -- Yes --> SaveBase[Save 1RNN Model & Vocab]
+        CheckBase -- No --> VarLoop
+        SaveBase -.-> VarLoop
+    end
+    
+    VarLoop -- "All Variations Complete" --> TSNE_Prep[Extract learned word vectors<br/>from saved Base 1RNN model]
+    
+    TSNE_Prep --> TSNE_Run[Run Scikit-Learn t-SNE]
+    TSNE_Run --> Plot[Generate & Save Scatter Plot<br/>tsne_rnn_part_c.png]
+    Plot --> Finish([End: Answer Observations])
+
+    %% Styling
+    style Start fill:#dfd,stroke:#333,stroke-width:2px
+    style Finish fill:#f9f,stroke:#333,stroke-width:2px
+    style VarLoop fill:#f9d0c4,stroke:#333,stroke-width:2px

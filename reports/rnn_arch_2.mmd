@@ -1,0 +1,25 @@
+flowchart TD
+    subgraph Pipeline ["Part_C_RNNs_Full_loop Pipeline"]
+        direction TB
+        Start([Start Loop]) --> Vars[Select Variation<br/>Base, 50 Words, GloVe, IMDB]
+        Vars --> Data[Load Dataset & Build Vocab]
+        Data --> Archs[Select Architecture<br/>RNN, Bi-RNN, LSTM, Bi-LSTM, etc.]
+        Archs --> Runs[Run 1..3<br/>for Statistical Significance]
+        
+        subgraph Training ["Training & Eval Loop"]
+            direction TB
+            Runs --> Init[Init RNNClassifier<br/>w/ optional GloVe]
+            Init --> Train[Train 15 Epochs<br/>Track Time]
+            Train --> Eval[Evaluate on Test Set]
+            Eval -- "Next Run" --> Runs
+        end
+        
+        Runs --> Stats[Calculate Mean/Std Accuracy]
+        Stats --> Archs
+        Archs --> Table[Output Results Table]
+        Table --> Vars
+        Vars --> Finish[Final t-SNE Visualization]
+    end
+
+    style Finish fill:#f9f,stroke:#333,stroke-width:2px
+    style Start fill:#dfd,stroke:#333,stroke-width:2px
