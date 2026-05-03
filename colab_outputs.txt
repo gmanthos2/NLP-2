@@ -1,0 +1,2079 @@
+
+################################################################################
+# RUNNING VARIATION: Base (AG News, 25 words)
+################################################################################
+
+
+==================================================
+  Architecture: 1RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,136,284
+
+Epoch  1 | Loss: 1.2944 | Time: 6.0s
+
+Epoch  2 | Loss: 1.0625 | Time: 4.3s
+
+Epoch  3 | Loss: 0.9698 | Time: 5.3s
+
+Epoch  4 | Loss: 0.9285 | Time: 4.6s
+
+Epoch  5 | Loss: 0.9036 | Time: 4.5s
+
+Epoch  6 | Loss: 0.8885 | Time: 5.4s
+
+Epoch  7 | Loss: 0.8771 | Time: 4.4s
+
+Epoch  8 | Loss: 0.8697 | Time: 4.5s
+
+Epoch  9 | Loss: 0.8619 | Time: 5.3s
+
+Epoch 10 | Loss: 0.8570 | Time: 4.5s
+
+Epoch 11 | Loss: 0.8501 | Time: 5.4s
+
+Epoch 12 | Loss: 0.8479 | Time: 4.3s
+
+Epoch 13 | Loss: 0.8422 | Time: 4.5s
+
+Epoch 14 | Loss: 0.8389 | Time: 5.4s
+
+Epoch 15 | Loss: 0.8375 | Time: 4.4s
+  Run 1 Test Accuracy: 0.8653
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.2955 | Time: 5.6s
+
+Epoch  2 | Loss: 1.0547 | Time: 4.4s
+
+Epoch  3 | Loss: 0.9675 | Time: 4.3s
+
+Epoch  4 | Loss: 0.9285 | Time: 5.4s
+
+Epoch  5 | Loss: 0.9041 | Time: 4.5s
+
+Epoch  6 | Loss: 0.8895 | Time: 4.7s
+
+Epoch  7 | Loss: 0.8770 | Time: 5.1s
+
+Epoch  8 | Loss: 0.8684 | Time: 4.4s
+
+Epoch  9 | Loss: 0.8608 | Time: 5.4s
+
+Epoch 10 | Loss: 0.8554 | Time: 4.6s
+
+Epoch 11 | Loss: 0.8509 | Time: 4.3s
+
+Epoch 12 | Loss: 0.8459 | Time: 5.6s
+
+Epoch 13 | Loss: 0.8424 | Time: 4.4s
+
+Epoch 14 | Loss: 0.8387 | Time: 5.4s
+
+Epoch 15 | Loss: 0.8374 | Time: 4.3s
+  Run 2 Test Accuracy: 0.8582
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.3008 | Time: 4.5s
+
+Epoch  2 | Loss: 1.0589 | Time: 5.3s
+
+Epoch  3 | Loss: 0.9617 | Time: 4.3s
+
+Epoch  4 | Loss: 0.9201 | Time: 4.6s
+
+Epoch  5 | Loss: 0.8967 | Time: 5.2s
+
+Epoch  6 | Loss: 0.8845 | Time: 4.2s
+
+Epoch  7 | Loss: 0.8733 | Time: 5.3s
+
+Epoch  8 | Loss: 0.8644 | Time: 4.3s
+
+Epoch  9 | Loss: 0.8572 | Time: 4.3s
+
+Epoch 10 | Loss: 0.8505 | Time: 5.6s
+
+Epoch 11 | Loss: 0.8476 | Time: 4.3s
+
+Epoch 12 | Loss: 0.8412 | Time: 5.4s
+
+Epoch 13 | Loss: 0.8376 | Time: 4.5s
+
+Epoch 14 | Loss: 0.8356 | Time: 4.3s
+
+Epoch 15 | Loss: 0.8330 | Time: 5.3s
+  Run 3 Test Accuracy: 0.8705
+
+==================================================
+  Architecture: 1Bi-RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,147,164
+
+Epoch  1 | Loss: 1.3040 | Time: 4.6s
+
+Epoch  2 | Loss: 1.0719 | Time: 5.0s
+
+Epoch  3 | Loss: 0.9676 | Time: 5.1s
+
+Epoch  4 | Loss: 0.9269 | Time: 4.6s
+
+Epoch  5 | Loss: 0.9032 | Time: 5.7s
+
+Epoch  6 | Loss: 0.8900 | Time: 4.5s
+
+Epoch  7 | Loss: 0.8790 | Time: 4.8s
+
+Epoch  8 | Loss: 0.8697 | Time: 5.3s
+
+Epoch  9 | Loss: 0.8628 | Time: 4.7s
+
+Epoch 10 | Loss: 0.8585 | Time: 5.6s
+
+Epoch 11 | Loss: 0.8510 | Time: 4.5s
+
+Epoch 12 | Loss: 0.8456 | Time: 4.8s
+
+Epoch 13 | Loss: 0.8418 | Time: 5.2s
+
+Epoch 14 | Loss: 0.8419 | Time: 4.4s
+
+Epoch 15 | Loss: 0.8374 | Time: 5.5s
+  Run 1 Test Accuracy: 0.8667
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.3058 | Time: 4.7s
+
+Epoch  2 | Loss: 1.0784 | Time: 4.6s
+
+Epoch  3 | Loss: 0.9749 | Time: 5.4s
+
+Epoch  4 | Loss: 0.9300 | Time: 4.6s
+
+Epoch  5 | Loss: 0.9029 | Time: 5.5s
+
+Epoch  6 | Loss: 0.8887 | Time: 4.5s
+
+Epoch  7 | Loss: 0.8766 | Time: 4.4s
+
+Epoch  8 | Loss: 0.8673 | Time: 5.5s
+
+Epoch  9 | Loss: 0.8604 | Time: 4.7s
+
+Epoch 10 | Loss: 0.8548 | Time: 5.5s
+
+Epoch 11 | Loss: 0.8489 | Time: 4.4s
+
+Epoch 12 | Loss: 0.8481 | Time: 4.7s
+
+Epoch 13 | Loss: 0.8437 | Time: 5.5s
+
+Epoch 14 | Loss: 0.8381 | Time: 4.4s
+
+Epoch 15 | Loss: 0.8355 | Time: 5.4s
+  Run 2 Test Accuracy: 0.8691
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.3022 | Time: 4.6s
+
+Epoch  2 | Loss: 1.0687 | Time: 4.5s
+
+Epoch  3 | Loss: 0.9708 | Time: 5.5s
+
+Epoch  4 | Loss: 0.9293 | Time: 4.7s
+
+Epoch  5 | Loss: 0.9059 | Time: 5.5s
+
+Epoch  6 | Loss: 0.8892 | Time: 4.5s
+
+Epoch  7 | Loss: 0.8760 | Time: 4.5s
+
+Epoch  8 | Loss: 0.8678 | Time: 5.5s
+
+Epoch  9 | Loss: 0.8598 | Time: 4.7s
+
+Epoch 10 | Loss: 0.8554 | Time: 5.2s
+
+Epoch 11 | Loss: 0.8494 | Time: 4.7s
+
+Epoch 12 | Loss: 0.8450 | Time: 4.7s
+
+Epoch 13 | Loss: 0.8424 | Time: 5.4s
+
+Epoch 14 | Loss: 0.8373 | Time: 4.5s
+
+Epoch 15 | Loss: 0.8346 | Time: 4.8s
+  Run 3 Test Accuracy: 0.8633
+
+==================================================
+  Architecture: 2Bi-RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,171,996
+
+Epoch  1 | Loss: 1.2456 | Time: 5.3s
+
+Epoch  2 | Loss: 1.0304 | Time: 4.7s
+
+Epoch  3 | Loss: 0.9671 | Time: 5.7s
+
+Epoch  4 | Loss: 0.9340 | Time: 4.8s
+
+Epoch  5 | Loss: 0.9136 | Time: 5.7s
+
+Epoch  6 | Loss: 0.9040 | Time: 4.7s
+
+Epoch  7 | Loss: 0.8948 | Time: 4.7s
+
+Epoch  8 | Loss: 0.8820 | Time: 5.7s
+
+Epoch  9 | Loss: 0.8744 | Time: 4.9s
+
+Epoch 10 | Loss: 0.8687 | Time: 5.7s
+
+Epoch 11 | Loss: 0.8678 | Time: 4.6s
+
+Epoch 12 | Loss: 0.8605 | Time: 5.2s
+
+Epoch 13 | Loss: 0.8556 | Time: 5.2s
+
+Epoch 14 | Loss: 0.8503 | Time: 4.6s
+
+Epoch 15 | Loss: 0.8482 | Time: 5.9s
+  Run 1 Test Accuracy: 0.8663
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.2707 | Time: 4.6s
+
+Epoch  2 | Loss: 1.0632 | Time: 5.5s
+
+Epoch  3 | Loss: 0.9822 | Time: 4.9s
+
+Epoch  4 | Loss: 0.9440 | Time: 5.0s
+
+Epoch  5 | Loss: 0.9196 | Time: 5.7s
+
+Epoch  6 | Loss: 0.9036 | Time: 4.7s
+
+Epoch  7 | Loss: 0.8921 | Time: 5.6s
+
+Epoch  8 | Loss: 0.8828 | Time: 4.7s
+
+Epoch  9 | Loss: 0.8765 | Time: 5.0s
+
+Epoch 10 | Loss: 0.8698 | Time: 5.5s
+
+Epoch 11 | Loss: 0.8654 | Time: 4.7s
+
+Epoch 12 | Loss: 0.8628 | Time: 5.9s
+
+Epoch 13 | Loss: 0.8552 | Time: 4.7s
+
+Epoch 14 | Loss: 0.8507 | Time: 5.4s
+
+Epoch 15 | Loss: 0.8472 | Time: 5.2s
+  Run 2 Test Accuracy: 0.8642
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.2418 | Time: 4.7s
+
+Epoch  2 | Loss: 1.0322 | Time: 5.7s
+
+Epoch  3 | Loss: 0.9681 | Time: 4.7s
+
+Epoch  4 | Loss: 0.9466 | Time: 5.9s
+
+Epoch  5 | Loss: 0.9306 | Time: 4.8s
+
+Epoch  6 | Loss: 0.9065 | Time: 4.9s
+
+Epoch  7 | Loss: 0.8956 | Time: 5.5s
+
+Epoch  8 | Loss: 0.8914 | Time: 4.7s
+
+Epoch  9 | Loss: 0.9061 | Time: 5.8s
+
+Epoch 10 | Loss: 0.9232 | Time: 4.7s
+
+Epoch 11 | Loss: 0.9163 | Time: 5.9s
+
+Epoch 12 | Loss: 0.9535 | Time: 4.7s
+
+Epoch 13 | Loss: 0.8915 | Time: 4.7s
+
+Epoch 14 | Loss: 0.8802 | Time: 5.7s
+
+Epoch 15 | Loss: 0.8714 | Time: 4.8s
+  Run 3 Test Accuracy: 0.8441
+
+==================================================
+  Architecture: 1LSTM
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,168,156
+
+Epoch  1 | Loss: 1.2626 | Time: 5.5s
+
+Epoch  2 | Loss: 0.9822 | Time: 4.7s
+
+Epoch  3 | Loss: 0.9111 | Time: 4.7s
+
+Epoch  4 | Loss: 0.8812 | Time: 5.7s
+
+Epoch  5 | Loss: 0.8629 | Time: 4.6s
+
+Epoch  6 | Loss: 0.8509 | Time: 5.6s
+
+Epoch  7 | Loss: 0.8418 | Time: 4.6s
+
+Epoch  8 | Loss: 0.8353 | Time: 5.0s
+
+Epoch  9 | Loss: 0.8295 | Time: 5.5s
+
+Epoch 10 | Loss: 0.8252 | Time: 4.7s
+
+Epoch 11 | Loss: 0.8208 | Time: 5.8s
+
+Epoch 12 | Loss: 0.8181 | Time: 4.6s
+
+Epoch 13 | Loss: 0.8163 | Time: 5.4s
+
+Epoch 14 | Loss: 0.8136 | Time: 4.9s
+
+Epoch 15 | Loss: 0.8116 | Time: 4.8s
+  Run 1 Test Accuracy: 0.8792
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.2482 | Time: 5.6s
+
+Epoch  2 | Loss: 0.9780 | Time: 4.6s
+
+Epoch  3 | Loss: 0.9109 | Time: 5.6s
+
+Epoch  4 | Loss: 0.8826 | Time: 4.8s
+
+Epoch  5 | Loss: 0.8651 | Time: 4.6s
+
+Epoch  6 | Loss: 0.8520 | Time: 5.6s
+
+Epoch  7 | Loss: 0.8431 | Time: 4.6s
+
+Epoch  8 | Loss: 0.8368 | Time: 5.6s
+
+Epoch  9 | Loss: 0.8314 | Time: 4.8s
+
+Epoch 10 | Loss: 0.8284 | Time: 4.9s
+
+Epoch 11 | Loss: 0.8236 | Time: 5.4s
+
+Epoch 12 | Loss: 0.8211 | Time: 4.8s
+
+Epoch 13 | Loss: 0.8173 | Time: 5.6s
+
+Epoch 14 | Loss: 0.8153 | Time: 4.6s
+
+Epoch 15 | Loss: 0.8125 | Time: 5.4s
+  Run 2 Test Accuracy: 0.8813
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.2457 | Time: 4.9s
+
+Epoch  2 | Loss: 0.9749 | Time: 4.5s
+
+Epoch  3 | Loss: 0.9099 | Time: 5.5s
+
+Epoch  4 | Loss: 0.8799 | Time: 4.7s
+
+Epoch  5 | Loss: 0.8622 | Time: 5.5s
+
+Epoch  6 | Loss: 0.8498 | Time: 4.7s
+
+Epoch  7 | Loss: 0.8409 | Time: 4.7s
+
+Epoch  8 | Loss: 0.8328 | Time: 5.5s
+
+Epoch  9 | Loss: 0.8276 | Time: 4.7s
+
+Epoch 10 | Loss: 0.8236 | Time: 5.5s
+
+Epoch 11 | Loss: 0.8202 | Time: 4.5s
+
+Epoch 12 | Loss: 0.8172 | Time: 4.7s
+
+Epoch 13 | Loss: 0.8131 | Time: 5.6s
+
+Epoch 14 | Loss: 0.8114 | Time: 4.6s
+
+Epoch 15 | Loss: 0.8086 | Time: 5.8s
+  Run 3 Test Accuracy: 0.8792
+
+==================================================
+  Architecture: 1Bi-LSTM
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,210,908
+
+Epoch  1 | Loss: 1.2552 | Time: 5.0s
+
+Epoch  2 | Loss: 0.9722 | Time: 5.4s
+
+Epoch  3 | Loss: 0.9057 | Time: 5.5s
+
+Epoch  4 | Loss: 0.8790 | Time: 5.2s
+
+Epoch  5 | Loss: 0.8619 | Time: 5.9s
+
+Epoch  6 | Loss: 0.8507 | Time: 5.0s
+
+Epoch  7 | Loss: 0.8422 | Time: 5.9s
+
+Epoch  8 | Loss: 0.8336 | Time: 4.9s
+
+Epoch  9 | Loss: 0.8279 | Time: 6.1s
+
+Epoch 10 | Loss: 0.8228 | Time: 5.0s
+
+Epoch 11 | Loss: 0.8197 | Time: 5.0s
+
+Epoch 12 | Loss: 0.8167 | Time: 6.1s
+
+Epoch 13 | Loss: 0.8146 | Time: 4.9s
+
+Epoch 14 | Loss: 0.8126 | Time: 5.9s
+
+Epoch 15 | Loss: 0.8100 | Time: 5.1s
+  Run 1 Test Accuracy: 0.8808
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.2580 | Time: 5.8s
+
+Epoch  2 | Loss: 0.9839 | Time: 5.1s
+
+Epoch  3 | Loss: 0.9141 | Time: 5.4s
+
+Epoch  4 | Loss: 0.8849 | Time: 5.6s
+
+Epoch  5 | Loss: 0.8663 | Time: 4.9s
+
+Epoch  6 | Loss: 0.8524 | Time: 5.9s
+
+Epoch  7 | Loss: 0.8426 | Time: 4.9s
+
+Epoch  8 | Loss: 0.8361 | Time: 5.9s
+
+Epoch  9 | Loss: 0.8293 | Time: 5.1s
+
+Epoch 10 | Loss: 0.8243 | Time: 5.6s
+
+Epoch 11 | Loss: 0.8212 | Time: 5.3s
+
+Epoch 12 | Loss: 0.8175 | Time: 5.1s
+
+Epoch 13 | Loss: 0.8162 | Time: 6.0s
+
+Epoch 14 | Loss: 0.8127 | Time: 5.0s
+
+Epoch 15 | Loss: 0.8100 | Time: 6.1s
+  Run 2 Test Accuracy: 0.8804
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.2512 | Time: 4.9s
+
+Epoch  2 | Loss: 0.9743 | Time: 6.0s
+
+Epoch  3 | Loss: 0.9071 | Time: 5.0s
+
+Epoch  4 | Loss: 0.8795 | Time: 5.4s
+
+Epoch  5 | Loss: 0.8620 | Time: 5.6s
+
+Epoch  6 | Loss: 0.8496 | Time: 5.0s
+
+Epoch  7 | Loss: 0.8402 | Time: 6.1s
+
+Epoch  8 | Loss: 0.8330 | Time: 5.0s
+
+Epoch  9 | Loss: 0.8280 | Time: 6.1s
+
+Epoch 10 | Loss: 0.8226 | Time: 4.9s
+
+Epoch 11 | Loss: 0.8191 | Time: 5.7s
+
+Epoch 12 | Loss: 0.8156 | Time: 5.5s
+
+Epoch 13 | Loss: 0.8128 | Time: 5.0s
+
+Epoch 14 | Loss: 0.8101 | Time: 6.1s
+
+Epoch 15 | Loss: 0.8081 | Time: 5.2s
+  Run 3 Test Accuracy: 0.8797
+
+==================================================
+  Architecture: 2Bi-LSTM
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,310,236
+
+Epoch  1 | Loss: 1.1910 | Time: 6.4s
+
+Epoch  2 | Loss: 0.9486 | Time: 5.4s
+
+Epoch  3 | Loss: 0.8988 | Time: 6.4s
+
+Epoch  4 | Loss: 0.8722 | Time: 5.6s
+
+Epoch  5 | Loss: 0.8571 | Time: 6.3s
+
+Epoch  6 | Loss: 0.8481 | Time: 5.2s
+
+Epoch  7 | Loss: 0.8386 | Time: 6.1s
+
+Epoch  8 | Loss: 0.8328 | Time: 5.5s
+
+Epoch  9 | Loss: 0.8281 | Time: 5.6s
+
+Epoch 10 | Loss: 0.8248 | Time: 5.9s
+
+Epoch 11 | Loss: 0.8191 | Time: 5.2s
+
+Epoch 12 | Loss: 0.8180 | Time: 6.4s
+
+Epoch 13 | Loss: 0.8128 | Time: 5.2s
+
+Epoch 14 | Loss: 0.8117 | Time: 6.2s
+
+Epoch 15 | Loss: 0.8093 | Time: 5.4s
+  Run 1 Test Accuracy: 0.8891
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.1860 | Time: 6.2s
+
+Epoch  2 | Loss: 0.9566 | Time: 5.2s
+
+Epoch  3 | Loss: 0.8990 | Time: 6.3s
+
+Epoch  4 | Loss: 0.8711 | Time: 5.5s
+
+Epoch  5 | Loss: 0.8581 | Time: 5.8s
+
+Epoch  6 | Loss: 0.8481 | Time: 5.8s
+
+Epoch  7 | Loss: 0.8378 | Time: 5.2s
+
+Epoch  8 | Loss: 0.8321 | Time: 6.3s
+
+Epoch  9 | Loss: 0.8271 | Time: 5.5s
+
+Epoch 10 | Loss: 0.8232 | Time: 6.4s
+
+Epoch 11 | Loss: 0.8183 | Time: 5.4s
+
+Epoch 12 | Loss: 0.8201 | Time: 6.2s
+
+Epoch 13 | Loss: 0.8163 | Time: 5.1s
+
+Epoch 14 | Loss: 0.8116 | Time: 6.2s
+
+Epoch 15 | Loss: 0.8101 | Time: 5.3s
+  Run 2 Test Accuracy: 0.8822
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.1920 | Time: 6.2s
+
+Epoch  2 | Loss: 0.9501 | Time: 5.2s
+
+Epoch  3 | Loss: 0.8958 | Time: 5.6s
+
+Epoch  4 | Loss: 0.8717 | Time: 6.0s
+
+Epoch  5 | Loss: 0.8554 | Time: 5.3s
+
+Epoch  6 | Loss: 0.8449 | Time: 6.3s
+
+Epoch  7 | Loss: 0.8370 | Time: 5.3s
+
+Epoch  8 | Loss: 0.8308 | Time: 6.2s
+
+Epoch  9 | Loss: 0.8270 | Time: 5.3s
+
+Epoch 10 | Loss: 0.8215 | Time: 6.2s
+
+Epoch 11 | Loss: 0.8184 | Time: 5.4s
+
+Epoch 12 | Loss: 0.8158 | Time: 6.2s
+
+Epoch 13 | Loss: 0.8155 | Time: 5.3s
+
+Epoch 14 | Loss: 0.8120 | Time: 5.7s
+
+Epoch 15 | Loss: 0.8099 | Time: 5.9s
+  Run 3 Test Accuracy: 0.8861
+
+Architecture      Mean Acc    Std Acc       Params   Time/Epoch
+--------------------------------------------------------------
+1RNN                0.8646     0.0051    2,136,284       4.81s
+1Bi-RNN             0.8664     0.0024    2,147,164       4.92s
+2Bi-RNN             0.8582     0.0100    2,171,996       5.15s
+1LSTM               0.8799     0.0010    2,168,156       5.08s
+1Bi-LSTM            0.8803     0.0004    2,210,908       5.42s
+2Bi-LSTM            0.8858     0.0028    2,310,236       5.76s
+
+################################################################################
+# RUNNING VARIATION: 50 Max Words (AG News)
+################################################################################
+
+
+==================================================
+  Architecture: 1RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,136,284
+
+Epoch  1 | Loss: 1.3692 | Time: 5.7s
+
+Epoch  2 | Loss: 1.3195 | Time: 4.8s
+
+Epoch  3 | Loss: 1.3029 | Time: 6.0s
+
+Epoch  4 | Loss: 1.3504 | Time: 5.2s
+
+Epoch  5 | Loss: 1.3491 | Time: 6.4s
+
+Epoch  6 | Loss: 1.3470 | Time: 5.0s
+
+Epoch  7 | Loss: 1.3400 | Time: 5.7s
+
+Epoch  8 | Loss: 1.3378 | Time: 5.4s
+
+Epoch  9 | Loss: 1.3217 | Time: 5.0s
+
+Epoch 10 | Loss: 1.2834 | Time: 6.1s
+
+Epoch 11 | Loss: 1.2509 | Time: 5.3s
+
+Epoch 12 | Loss: 1.3041 | Time: 6.0s
+
+Epoch 13 | Loss: 1.3331 | Time: 5.0s
+
+Epoch 14 | Loss: 1.3229 | Time: 5.9s
+
+Epoch 15 | Loss: 1.3045 | Time: 4.9s
+  Run 1 Test Accuracy: 0.4180
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.3787 | Time: 5.2s
+
+Epoch  2 | Loss: 1.3475 | Time: 5.7s
+
+Epoch  3 | Loss: 1.3171 | Time: 4.7s
+
+Epoch  4 | Loss: 1.3261 | Time: 5.9s
+
+Epoch  5 | Loss: 1.3032 | Time: 4.8s
+
+Epoch  6 | Loss: 1.3300 | Time: 6.1s
+
+Epoch  7 | Loss: 1.3184 | Time: 4.8s
+
+Epoch  8 | Loss: 1.3343 | Time: 4.8s
+
+Epoch  9 | Loss: 1.3332 | Time: 5.9s
+
+Epoch 10 | Loss: 1.3305 | Time: 4.9s
+
+Epoch 11 | Loss: 1.3264 | Time: 6.1s
+
+Epoch 12 | Loss: 1.3208 | Time: 5.1s
+
+Epoch 13 | Loss: 1.2957 | Time: 6.0s
+
+Epoch 14 | Loss: 1.2680 | Time: 4.8s
+
+Epoch 15 | Loss: 1.2403 | Time: 4.9s
+  Run 2 Test Accuracy: 0.4255
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.3808 | Time: 5.8s
+
+Epoch  2 | Loss: 1.3780 | Time: 5.1s
+
+Epoch  3 | Loss: 1.3501 | Time: 5.9s
+
+Epoch  4 | Loss: 1.3301 | Time: 4.7s
+
+Epoch  5 | Loss: 1.3124 | Time: 5.8s
+
+Epoch  6 | Loss: 1.2455 | Time: 4.8s
+
+Epoch  7 | Loss: 1.3049 | Time: 5.0s
+
+Epoch  8 | Loss: 1.3192 | Time: 5.8s
+
+Epoch  9 | Loss: 1.3155 | Time: 4.9s
+
+Epoch 10 | Loss: 1.2977 | Time: 5.9s
+
+Epoch 11 | Loss: 1.2921 | Time: 4.9s
+
+Epoch 12 | Loss: 1.2973 | Time: 5.2s
+
+Epoch 13 | Loss: 1.2231 | Time: 5.5s
+
+Epoch 14 | Loss: 1.0870 | Time: 4.8s
+
+Epoch 15 | Loss: 1.1612 | Time: 5.8s
+  Run 3 Test Accuracy: 0.3784
+
+==================================================
+  Architecture: 1Bi-RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,147,164
+
+Epoch  1 | Loss: 1.3654 | Time: 5.2s
+
+Epoch  2 | Loss: 1.3583 | Time: 6.5s
+
+Epoch  3 | Loss: 1.3263 | Time: 5.2s
+
+Epoch  4 | Loss: 1.2857 | Time: 6.1s
+
+Epoch  5 | Loss: 1.2791 | Time: 4.9s
+
+Epoch  6 | Loss: 1.2602 | Time: 5.2s
+
+Epoch  7 | Loss: 1.2564 | Time: 6.2s
+
+Epoch  8 | Loss: 1.2447 | Time: 5.2s
+
+Epoch  9 | Loss: 1.2743 | Time: 6.2s
+
+Epoch 10 | Loss: 1.3122 | Time: 5.3s
+
+Epoch 11 | Loss: 1.3072 | Time: 6.1s
+
+Epoch 12 | Loss: 1.3015 | Time: 5.3s
+
+Epoch 13 | Loss: 1.2933 | Time: 6.4s
+
+Epoch 14 | Loss: 1.2906 | Time: 5.3s
+
+Epoch 15 | Loss: 1.2549 | Time: 6.5s
+  Run 1 Test Accuracy: 0.4475
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.3751 | Time: 5.6s
+
+Epoch  2 | Loss: 1.3422 | Time: 6.5s
+
+Epoch  3 | Loss: 1.3574 | Time: 5.9s
+
+Epoch  4 | Loss: 1.3741 | Time: 6.1s
+
+Epoch  5 | Loss: 1.3643 | Time: 6.0s
+
+Epoch  6 | Loss: 1.3403 | Time: 5.2s
+
+Epoch  7 | Loss: 1.2604 | Time: 6.0s
+
+Epoch  8 | Loss: 1.3102 | Time: 5.4s
+
+Epoch  9 | Loss: 1.2968 | Time: 6.1s
+
+Epoch 10 | Loss: 1.2655 | Time: 5.5s
+
+Epoch 11 | Loss: 1.2402 | Time: 6.1s
+
+Epoch 12 | Loss: 1.2908 | Time: 5.1s
+
+Epoch 13 | Loss: 1.3094 | Time: 6.4s
+
+Epoch 14 | Loss: 1.2752 | Time: 5.4s
+
+Epoch 15 | Loss: 1.2882 | Time: 5.9s
+  Run 2 Test Accuracy: 0.3774
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.3788 | Time: 5.6s
+
+Epoch  2 | Loss: 1.3730 | Time: 5.3s
+
+Epoch  3 | Loss: 1.3677 | Time: 6.3s
+
+Epoch  4 | Loss: 1.3514 | Time: 5.2s
+
+Epoch  5 | Loss: 1.3772 | Time: 6.2s
+
+Epoch  6 | Loss: 1.3428 | Time: 5.1s
+
+Epoch  7 | Loss: 1.2830 | Time: 6.2s
+
+Epoch  8 | Loss: 1.2610 | Time: 5.2s
+
+Epoch  9 | Loss: 1.2539 | Time: 6.3s
+
+Epoch 10 | Loss: 1.2589 | Time: 5.2s
+
+Epoch 11 | Loss: 1.2262 | Time: 5.9s
+
+Epoch 12 | Loss: 1.2392 | Time: 5.6s
+
+Epoch 13 | Loss: 1.2687 | Time: 5.1s
+
+Epoch 14 | Loss: 1.2302 | Time: 6.3s
+
+Epoch 15 | Loss: 1.2007 | Time: 5.0s
+  Run 3 Test Accuracy: 0.6150
+
+==================================================
+  Architecture: 2Bi-RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,171,996
+
+Epoch  1 | Loss: 1.3741 | Time: 6.5s
+
+Epoch  2 | Loss: 1.3310 | Time: 5.3s
+
+Epoch  3 | Loss: 1.2912 | Time: 6.5s
+
+Epoch  4 | Loss: 1.2695 | Time: 5.2s
+
+Epoch  5 | Loss: 1.3035 | Time: 6.4s
+
+Epoch  6 | Loss: 1.3381 | Time: 5.5s
+
+Epoch  7 | Loss: 1.3342 | Time: 6.5s
+
+Epoch  8 | Loss: 1.3329 | Time: 5.7s
+
+Epoch  9 | Loss: 1.3303 | Time: 6.5s
+
+Epoch 10 | Loss: 1.3281 | Time: 5.5s
+
+Epoch 11 | Loss: 1.3108 | Time: 6.5s
+
+Epoch 12 | Loss: 1.2967 | Time: 6.0s
+
+Epoch 13 | Loss: 1.2938 | Time: 6.1s
+
+Epoch 14 | Loss: 1.2583 | Time: 6.4s
+
+Epoch 15 | Loss: 1.2520 | Time: 5.9s
+  Run 1 Test Accuracy: 0.4279
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.3768 | Time: 6.2s
+
+Epoch  2 | Loss: 1.3647 | Time: 5.8s
+
+Epoch  3 | Loss: 1.3711 | Time: 6.4s
+
+Epoch  4 | Loss: 1.3693 | Time: 5.4s
+
+Epoch  5 | Loss: 1.3675 | Time: 6.4s
+
+Epoch  6 | Loss: 1.3643 | Time: 5.4s
+
+Epoch  7 | Loss: 1.3603 | Time: 6.4s
+
+Epoch  8 | Loss: 1.3562 | Time: 5.6s
+
+Epoch  9 | Loss: 1.3496 | Time: 6.4s
+
+Epoch 10 | Loss: 1.3376 | Time: 5.5s
+
+Epoch 11 | Loss: 1.2797 | Time: 6.7s
+
+Epoch 12 | Loss: 1.3387 | Time: 5.4s
+
+Epoch 13 | Loss: 1.2876 | Time: 6.4s
+
+Epoch 14 | Loss: 1.2132 | Time: 5.2s
+
+Epoch 15 | Loss: 1.3011 | Time: 6.5s
+  Run 2 Test Accuracy: 0.3917
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.3671 | Time: 5.4s
+
+Epoch  2 | Loss: 1.3364 | Time: 6.3s
+
+Epoch  3 | Loss: 1.3755 | Time: 5.5s
+
+Epoch  4 | Loss: 1.3267 | Time: 5.9s
+
+Epoch  5 | Loss: 1.3449 | Time: 5.7s
+
+Epoch  6 | Loss: 1.3235 | Time: 5.3s
+
+Epoch  7 | Loss: 1.2729 | Time: 6.3s
+
+Epoch  8 | Loss: 1.2648 | Time: 5.5s
+
+Epoch  9 | Loss: 1.2877 | Time: 6.3s
+
+Epoch 10 | Loss: 1.2668 | Time: 5.3s
+
+Epoch 11 | Loss: 1.2616 | Time: 6.4s
+
+Epoch 12 | Loss: 1.2244 | Time: 5.3s
+
+Epoch 13 | Loss: 1.2202 | Time: 6.3s
+
+Epoch 14 | Loss: 1.2259 | Time: 5.2s
+
+Epoch 15 | Loss: 1.2011 | Time: 6.4s
+  Run 3 Test Accuracy: 0.5161
+
+==================================================
+  Architecture: 1LSTM
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,168,156
+
+Epoch  1 | Loss: 1.3332 | Time: 5.2s
+
+Epoch  2 | Loss: 1.0767 | Time: 5.8s
+
+Epoch  3 | Loss: 0.9664 | Time: 5.6s
+
+Epoch  4 | Loss: 0.9188 | Time: 5.4s
+
+Epoch  5 | Loss: 0.8914 | Time: 6.3s
+
+Epoch  6 | Loss: 0.8769 | Time: 5.2s
+
+Epoch  7 | Loss: 0.8641 | Time: 6.3s
+
+Epoch  8 | Loss: 0.8593 | Time: 5.3s
+
+Epoch  9 | Loss: 0.8554 | Time: 6.2s
+
+Epoch 10 | Loss: 0.8502 | Time: 5.2s
+
+Epoch 11 | Loss: 0.8401 | Time: 6.4s
+
+Epoch 12 | Loss: 0.8399 | Time: 5.1s
+
+Epoch 13 | Loss: 0.8350 | Time: 5.8s
+
+Epoch 14 | Loss: 0.8341 | Time: 5.6s
+
+Epoch 15 | Loss: 0.8324 | Time: 5.5s
+  Run 1 Test Accuracy: 0.8864
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.3400 | Time: 6.0s
+
+Epoch  2 | Loss: 1.0948 | Time: 5.3s
+
+Epoch  3 | Loss: 0.9768 | Time: 6.3s
+
+Epoch  4 | Loss: 0.9336 | Time: 5.4s
+
+Epoch  5 | Loss: 0.9065 | Time: 6.2s
+
+Epoch  6 | Loss: 0.8903 | Time: 5.2s
+
+Epoch  7 | Loss: 0.8722 | Time: 6.2s
+
+Epoch  8 | Loss: 0.8670 | Time: 5.3s
+
+Epoch  9 | Loss: 0.8594 | Time: 6.4s
+
+Epoch 10 | Loss: 0.8541 | Time: 5.2s
+
+Epoch 11 | Loss: 0.8573 | Time: 5.8s
+
+Epoch 12 | Loss: 0.8591 | Time: 5.9s
+
+Epoch 13 | Loss: 0.8501 | Time: 5.3s
+
+Epoch 14 | Loss: 0.8420 | Time: 6.3s
+
+Epoch 15 | Loss: 0.8397 | Time: 5.6s
+  Run 2 Test Accuracy: 0.8776
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.3469 | Time: 6.4s
+
+Epoch  2 | Loss: 1.1267 | Time: 5.4s
+
+Epoch  3 | Loss: 0.9690 | Time: 6.3s
+
+Epoch  4 | Loss: 0.9140 | Time: 5.6s
+
+Epoch  5 | Loss: 0.8900 | Time: 6.3s
+
+Epoch  6 | Loss: 0.8729 | Time: 5.3s
+
+Epoch  7 | Loss: 0.8649 | Time: 6.3s
+
+Epoch  8 | Loss: 0.8552 | Time: 5.2s
+
+Epoch  9 | Loss: 0.8540 | Time: 6.3s
+
+Epoch 10 | Loss: 0.8647 | Time: 5.4s
+
+Epoch 11 | Loss: 0.8501 | Time: 5.8s
+
+Epoch 12 | Loss: 0.8420 | Time: 5.9s
+
+Epoch 13 | Loss: 0.8419 | Time: 5.3s
+
+Epoch 14 | Loss: 0.8351 | Time: 6.7s
+
+Epoch 15 | Loss: 0.8323 | Time: 5.6s
+  Run 3 Test Accuracy: 0.8807
+
+==================================================
+  Architecture: 1Bi-LSTM
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,210,908
+
+Epoch  1 | Loss: 1.3329 | Time: 6.8s
+
+Epoch  2 | Loss: 1.1080 | Time: 5.6s
+
+Epoch  3 | Loss: 0.9801 | Time: 6.8s
+
+Epoch  4 | Loss: 0.9376 | Time: 6.1s
+
+Epoch  5 | Loss: 0.9053 | Time: 6.7s
+
+Epoch  6 | Loss: 0.8849 | Time: 5.5s
+
+Epoch  7 | Loss: 0.8730 | Time: 6.5s
+
+Epoch  8 | Loss: 0.8661 | Time: 5.4s
+
+Epoch  9 | Loss: 0.8546 | Time: 11.8s
+
+Epoch 10 | Loss: 0.8481 | Time: 10.8s
+
+Epoch 11 | Loss: 0.8462 | Time: 5.4s
+
+Epoch 12 | Loss: 0.8397 | Time: 6.6s
+
+Epoch 13 | Loss: 0.8351 | Time: 5.3s
+
+Epoch 14 | Loss: 0.8326 | Time: 6.4s
+
+Epoch 15 | Loss: 0.8301 | Time: 5.5s
+  Run 1 Test Accuracy: 0.8855
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.3347 | Time: 6.4s
+
+Epoch  2 | Loss: 1.0710 | Time: 5.3s
+
+Epoch  3 | Loss: 0.9685 | Time: 6.4s
+
+Epoch  4 | Loss: 0.9180 | Time: 5.5s
+
+Epoch  5 | Loss: 0.8940 | Time: 6.4s
+
+Epoch  6 | Loss: 0.8794 | Time: 5.3s
+
+Epoch  7 | Loss: 0.8695 | Time: 6.5s
+
+Epoch  8 | Loss: 0.8606 | Time: 5.4s
+
+Epoch  9 | Loss: 0.8704 | Time: 6.6s
+
+Epoch 10 | Loss: 0.8572 | Time: 7.0s
+
+Epoch 11 | Loss: 0.8474 | Time: 6.5s
+
+Epoch 12 | Loss: 0.8399 | Time: 5.6s
+
+Epoch 13 | Loss: 0.8348 | Time: 6.5s
+
+Epoch 14 | Loss: 0.8317 | Time: 5.4s
+
+Epoch 15 | Loss: 0.8281 | Time: 6.4s
+  Run 2 Test Accuracy: 0.8836
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.3416 | Time: 5.4s
+
+Epoch  2 | Loss: 1.1163 | Time: 6.1s
+
+Epoch  3 | Loss: 0.9726 | Time: 5.7s
+
+Epoch  4 | Loss: 0.9190 | Time: 5.8s
+
+Epoch  5 | Loss: 0.8983 | Time: 6.0s
+
+Epoch  6 | Loss: 0.8793 | Time: 5.3s
+
+Epoch  7 | Loss: 0.8717 | Time: 6.5s
+
+Epoch  8 | Loss: 0.8589 | Time: 5.3s
+
+Epoch  9 | Loss: 0.8537 | Time: 6.5s
+
+Epoch 10 | Loss: 0.8476 | Time: 5.3s
+
+Epoch 11 | Loss: 0.8413 | Time: 6.3s
+
+Epoch 12 | Loss: 0.8378 | Time: 5.6s
+
+Epoch 13 | Loss: 0.8360 | Time: 6.4s
+
+Epoch 14 | Loss: 0.8363 | Time: 5.5s
+
+Epoch 15 | Loss: 0.8405 | Time: 6.6s
+  Run 3 Test Accuracy: 0.8484
+
+==================================================
+  Architecture: 2Bi-LSTM
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,310,236
+
+Epoch  1 | Loss: 1.3061 | Time: 5.8s
+
+Epoch  2 | Loss: 1.0208 | Time: 6.8s
+
+Epoch  3 | Loss: 0.9403 | Time: 5.8s
+
+Epoch  4 | Loss: 0.9036 | Time: 6.9s
+
+Epoch  5 | Loss: 0.8819 | Time: 5.7s
+
+Epoch  6 | Loss: 0.8702 | Time: 6.7s
+
+Epoch  7 | Loss: 0.8607 | Time: 5.8s
+
+Epoch  8 | Loss: 0.8546 | Time: 6.8s
+
+Epoch  9 | Loss: 0.8485 | Time: 5.9s
+
+Epoch 10 | Loss: 0.8421 | Time: 6.8s
+
+Epoch 11 | Loss: 0.8408 | Time: 5.8s
+
+Epoch 12 | Loss: 0.8374 | Time: 6.9s
+
+Epoch 13 | Loss: 0.8321 | Time: 5.8s
+
+Epoch 14 | Loss: 0.8288 | Time: 6.6s
+
+Epoch 15 | Loss: 0.8245 | Time: 5.9s
+  Run 1 Test Accuracy: 0.8934
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.3066 | Time: 6.8s
+
+Epoch  2 | Loss: 1.0385 | Time: 5.8s
+
+Epoch  3 | Loss: 0.9387 | Time: 6.7s
+
+Epoch  4 | Loss: 0.9018 | Time: 6.0s
+
+Epoch  5 | Loss: 0.8825 | Time: 7.0s
+
+Epoch  6 | Loss: 0.8706 | Time: 6.0s
+
+Epoch  7 | Loss: 0.8562 | Time: 6.8s
+
+Epoch  8 | Loss: 0.8498 | Time: 5.7s
+
+Epoch  9 | Loss: 0.8448 | Time: 6.8s
+
+Epoch 10 | Loss: 0.8375 | Time: 5.7s
+
+Epoch 11 | Loss: 0.8334 | Time: 7.0s
+
+Epoch 12 | Loss: 0.8283 | Time: 5.7s
+
+Epoch 13 | Loss: 0.8257 | Time: 6.8s
+
+Epoch 14 | Loss: 0.8217 | Time: 5.7s
+
+Epoch 15 | Loss: 0.8198 | Time: 6.9s
+  Run 2 Test Accuracy: 0.8875
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.3127 | Time: 5.7s
+
+Epoch  2 | Loss: 1.0586 | Time: 6.7s
+
+Epoch  3 | Loss: 0.9485 | Time: 5.8s
+
+Epoch  4 | Loss: 0.9097 | Time: 6.9s
+
+Epoch  5 | Loss: 0.8885 | Time: 5.8s
+
+Epoch  6 | Loss: 0.8705 | Time: 6.7s
+
+Epoch  7 | Loss: 0.8588 | Time: 5.9s
+
+Epoch  8 | Loss: 0.8518 | Time: 7.0s
+
+Epoch  9 | Loss: 0.8452 | Time: 6.5s
+
+Epoch 10 | Loss: 0.8377 | Time: 6.8s
+
+Epoch 11 | Loss: 0.8330 | Time: 6.6s
+
+Epoch 12 | Loss: 0.8336 | Time: 6.6s
+
+Epoch 13 | Loss: 0.8283 | Time: 6.9s
+
+Epoch 14 | Loss: 0.8305 | Time: 6.3s
+
+Epoch 15 | Loss: 0.8231 | Time: 7.4s
+  Run 3 Test Accuracy: 0.8882
+
+Architecture      Mean Acc    Std Acc       Params   Time/Epoch
+--------------------------------------------------------------
+1RNN                0.4073     0.0207    2,136,284       5.38s
+1Bi-RNN             0.4800     0.0997    2,147,164       5.72s
+2Bi-RNN             0.4452     0.0522    2,171,996       5.95s
+1LSTM               0.8816     0.0037    2,168,156       5.76s
+1Bi-LSTM            0.8725     0.0170    2,210,908       6.24s
+2Bi-LSTM            0.8897     0.0026    2,310,236       6.39s
+
+################################################################################
+# RUNNING VARIATION: GloVe Trainable (AG News, 25 words)
+################################################################################
+
+Loading GloVe 6B-100d...
+[==================================================] 100.0% 128.1/128.1MB downloaded
+GloVe vectors loaded. 20435/21254 words found.
+
+==================================================
+  Architecture: 1RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,136,284
+
+Epoch  1 | Loss: 1.0467 | Time: 8.6s
+
+Epoch  2 | Loss: 0.8812 | Time: 8.5s
+
+Epoch  3 | Loss: 0.8649 | Time: 8.7s
+
+Epoch  4 | Loss: 0.8573 | Time: 8.6s
+
+Epoch  5 | Loss: 0.8507 | Time: 8.7s
+
+Epoch  6 | Loss: 0.8480 | Time: 5.3s
+
+Epoch  7 | Loss: 0.8469 | Time: 4.8s
+
+Epoch  8 | Loss: 0.8397 | Time: 5.4s
+
+Epoch  9 | Loss: 0.8389 | Time: 4.7s
+
+Epoch 10 | Loss: 0.8318 | Time: 5.7s
+
+Epoch 11 | Loss: 0.8316 | Time: 4.7s
+
+Epoch 12 | Loss: 0.8295 | Time: 5.0s
+
+Epoch 13 | Loss: 0.8409 | Time: 5.2s
+
+Epoch 14 | Loss: 0.8314 | Time: 4.6s
+
+Epoch 15 | Loss: 0.8290 | Time: 5.9s
+  Run 1 Test Accuracy: 0.8961
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.0577 | Time: 4.6s
+
+Epoch  2 | Loss: 0.8840 | Time: 5.6s
+
+Epoch  3 | Loss: 0.8664 | Time: 4.9s
+
+Epoch  4 | Loss: 0.8602 | Time: 4.8s
+
+Epoch  5 | Loss: 0.8592 | Time: 5.7s
+
+Epoch  6 | Loss: 0.8618 | Time: 4.6s
+
+Epoch  7 | Loss: 0.8493 | Time: 5.8s
+
+Epoch  8 | Loss: 0.8508 | Time: 4.6s
+
+Epoch  9 | Loss: 0.8454 | Time: 4.8s
+
+Epoch 10 | Loss: 0.8568 | Time: 5.6s
+
+Epoch 11 | Loss: 0.8449 | Time: 4.6s
+
+Epoch 12 | Loss: 0.8770 | Time: 5.8s
+
+Epoch 13 | Loss: 0.8547 | Time: 4.5s
+
+Epoch 14 | Loss: 0.8435 | Time: 4.6s
+
+Epoch 15 | Loss: 0.8473 | Time: 5.9s
+  Run 2 Test Accuracy: 0.8800
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.0498 | Time: 4.6s
+
+Epoch  2 | Loss: 0.9004 | Time: 5.7s
+
+Epoch  3 | Loss: 0.8744 | Time: 4.6s
+
+Epoch  4 | Loss: 0.8676 | Time: 4.9s
+
+Epoch  5 | Loss: 0.8648 | Time: 5.5s
+
+Epoch  6 | Loss: 0.8537 | Time: 4.6s
+
+Epoch  7 | Loss: 0.8534 | Time: 5.7s
+
+Epoch  8 | Loss: 0.8514 | Time: 4.7s
+
+Epoch  9 | Loss: 0.8581 | Time: 5.0s
+
+Epoch 10 | Loss: 0.8622 | Time: 5.5s
+
+Epoch 11 | Loss: 0.8436 | Time: 4.6s
+
+Epoch 12 | Loss: 0.8424 | Time: 5.9s
+
+Epoch 13 | Loss: 0.8420 | Time: 4.6s
+
+Epoch 14 | Loss: 0.8450 | Time: 5.0s
+
+Epoch 15 | Loss: 0.8511 | Time: 5.4s
+  Run 3 Test Accuracy: 0.8555
+
+==================================================
+  Architecture: 1Bi-RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,147,164
+
+Epoch  1 | Loss: 1.0840 | Time: 4.7s
+
+Epoch  2 | Loss: 0.8918 | Time: 5.8s
+
+Epoch  3 | Loss: 0.8710 | Time: 4.7s
+
+Epoch  4 | Loss: 0.8609 | Time: 5.9s
+
+Epoch  5 | Loss: 0.8539 | Time: 4.8s
+
+Epoch  6 | Loss: 0.8496 | Time: 4.9s
+
+Epoch  7 | Loss: 0.8433 | Time: 6.0s
+
+Epoch  8 | Loss: 0.8432 | Time: 4.9s
+
+Epoch  9 | Loss: 0.8418 | Time: 6.0s
+
+Epoch 10 | Loss: 0.8409 | Time: 4.8s
+
+Epoch 11 | Loss: 0.8363 | Time: 5.3s
+
+Epoch 12 | Loss: 0.8368 | Time: 5.3s
+
+Epoch 13 | Loss: 0.8426 | Time: 4.6s
+
+Epoch 14 | Loss: 0.8417 | Time: 5.8s
+
+Epoch 15 | Loss: 0.8313 | Time: 4.8s
+  Run 1 Test Accuracy: 0.8966
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.0923 | Time: 5.8s
+
+Epoch  2 | Loss: 0.9035 | Time: 4.7s
+
+Epoch  3 | Loss: 0.8769 | Time: 4.7s
+
+Epoch  4 | Loss: 0.8683 | Time: 6.0s
+
+Epoch  5 | Loss: 0.8583 | Time: 4.7s
+
+Epoch  6 | Loss: 0.8602 | Time: 5.8s
+
+Epoch  7 | Loss: 0.8655 | Time: 4.7s
+
+Epoch  8 | Loss: 0.8492 | Time: 5.1s
+
+Epoch  9 | Loss: 0.8485 | Time: 5.6s
+
+Epoch 10 | Loss: 0.8421 | Time: 4.6s
+
+Epoch 11 | Loss: 0.8450 | Time: 5.8s
+
+Epoch 12 | Loss: 0.8460 | Time: 4.8s
+
+Epoch 13 | Loss: 0.8417 | Time: 5.4s
+
+Epoch 14 | Loss: 0.8424 | Time: 5.0s
+
+Epoch 15 | Loss: 0.8469 | Time: 4.9s
+  Run 2 Test Accuracy: 0.8859
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.0899 | Time: 5.8s
+
+Epoch  2 | Loss: 0.9058 | Time: 4.7s
+
+Epoch  3 | Loss: 0.8859 | Time: 5.9s
+
+Epoch  4 | Loss: 0.8773 | Time: 4.9s
+
+Epoch  5 | Loss: 0.8676 | Time: 5.1s
+
+Epoch  6 | Loss: 0.8610 | Time: 5.7s
+
+Epoch  7 | Loss: 0.8702 | Time: 4.7s
+
+Epoch  8 | Loss: 0.8623 | Time: 5.9s
+
+Epoch  9 | Loss: 0.8653 | Time: 5.0s
+
+Epoch 10 | Loss: 0.8558 | Time: 5.7s
+
+Epoch 11 | Loss: 0.8584 | Time: 5.0s
+
+Epoch 12 | Loss: 0.8579 | Time: 5.0s
+
+Epoch 13 | Loss: 0.8696 | Time: 5.9s
+
+Epoch 14 | Loss: 0.8710 | Time: 4.8s
+
+Epoch 15 | Loss: 0.8556 | Time: 5.9s
+  Run 3 Test Accuracy: 0.8442
+
+==================================================
+  Architecture: 2Bi-RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,171,996
+
+Epoch  1 | Loss: 0.9997 | Time: 4.8s
+
+Epoch  2 | Loss: 0.8802 | Time: 5.4s
+
+Epoch  3 | Loss: 0.8698 | Time: 5.4s
+
+Epoch  4 | Loss: 0.8625 | Time: 5.0s
+
+Epoch  5 | Loss: 0.8635 | Time: 6.0s
+
+Epoch  6 | Loss: 0.8531 | Time: 4.9s
+
+Epoch  7 | Loss: 0.8858 | Time: 6.0s
+
+Epoch  8 | Loss: 0.8618 | Time: 4.8s
+
+Epoch  9 | Loss: 0.8579 | Time: 5.6s
+
+Epoch 10 | Loss: 0.8505 | Time: 5.4s
+
+Epoch 11 | Loss: 0.8523 | Time: 4.8s
+
+Epoch 12 | Loss: 0.8453 | Time: 6.0s
+
+Epoch 13 | Loss: 0.8510 | Time: 4.9s
+
+Epoch 14 | Loss: 0.8470 | Time: 5.9s
+
+Epoch 15 | Loss: 0.8406 | Time: 5.1s
+  Run 1 Test Accuracy: 0.8907
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 0.9830 | Time: 5.4s
+
+Epoch  2 | Loss: 0.8727 | Time: 5.4s
+
+Epoch  3 | Loss: 0.8647 | Time: 4.9s
+
+Epoch  4 | Loss: 0.8547 | Time: 6.3s
+
+Epoch  5 | Loss: 0.8515 | Time: 5.1s
+
+Epoch  6 | Loss: 0.8538 | Time: 6.0s
+
+Epoch  7 | Loss: 0.8480 | Time: 4.9s
+
+Epoch  8 | Loss: 0.8417 | Time: 5.4s
+
+Epoch  9 | Loss: 0.8386 | Time: 5.6s
+
+Epoch 10 | Loss: 0.8384 | Time: 4.9s
+
+Epoch 11 | Loss: 0.8402 | Time: 5.9s
+
+Epoch 12 | Loss: 0.8375 | Time: 5.2s
+
+Epoch 13 | Loss: 0.8334 | Time: 6.6s
+
+Epoch 14 | Loss: 0.8538 | Time: 5.1s
+
+Epoch 15 | Loss: 0.8397 | Time: 6.3s
+  Run 2 Test Accuracy: 0.8633
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.0037 | Time: 5.1s
+
+Epoch  2 | Loss: 0.8956 | Time: 5.6s
+
+Epoch  3 | Loss: 0.8791 | Time: 5.7s
+
+Epoch  4 | Loss: 0.8706 | Time: 5.2s
+
+Epoch  5 | Loss: 0.9024 | Time: 6.0s
+
+Epoch  6 | Loss: 0.8665 | Time: 5.0s
+
+Epoch  7 | Loss: 0.9192 | Time: 6.0s
+
+Epoch  8 | Loss: 0.9837 | Time: 5.0s
+
+Epoch  9 | Loss: 0.8663 | Time: 6.4s
+
+Epoch 10 | Loss: 0.8571 | Time: 5.0s
+
+Epoch 11 | Loss: 0.8530 | Time: 5.4s
+
+Epoch 12 | Loss: 0.8527 | Time: 5.6s
+
+Epoch 13 | Loss: 0.8917 | Time: 4.8s
+
+Epoch 14 | Loss: 0.8697 | Time: 6.0s
+
+Epoch 15 | Loss: 0.8565 | Time: 5.0s
+  Run 3 Test Accuracy: 0.8741
+
+==================================================
+  Architecture: 1LSTM
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,168,156
+
+Epoch  1 | Loss: 1.0346 | Time: 5.9s
+
+Epoch  2 | Loss: 0.8563 | Time: 4.7s
+
+Epoch  3 | Loss: 0.8392 | Time: 4.9s
+
+Epoch  4 | Loss: 0.8301 | Time: 6.1s
+
+Epoch  5 | Loss: 0.8229 | Time: 4.9s
+
+Epoch  6 | Loss: 0.8173 | Time: 5.9s
+
+Epoch  7 | Loss: 0.8136 | Time: 4.9s
+
+Epoch  8 | Loss: 0.8096 | Time: 5.7s
+
+Epoch  9 | Loss: 0.8070 | Time: 5.2s
+
+Epoch 10 | Loss: 0.8039 | Time: 4.9s
+
+Epoch 11 | Loss: 0.8022 | Time: 5.8s
+
+Epoch 12 | Loss: 0.8010 | Time: 5.1s
+
+Epoch 13 | Loss: 0.7998 | Time: 5.9s
+
+Epoch 14 | Loss: 0.7982 | Time: 4.9s
+
+Epoch 15 | Loss: 0.7978 | Time: 5.8s
+  Run 1 Test Accuracy: 0.9089
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.0303 | Time: 4.9s
+
+Epoch  2 | Loss: 0.8589 | Time: 4.8s
+
+Epoch  3 | Loss: 0.8425 | Time: 5.8s
+
+Epoch  4 | Loss: 0.8315 | Time: 5.1s
+
+Epoch  5 | Loss: 0.8254 | Time: 5.9s
+
+Epoch  6 | Loss: 0.8192 | Time: 4.8s
+
+Epoch  7 | Loss: 0.8143 | Time: 5.3s
+
+Epoch  8 | Loss: 0.8102 | Time: 5.4s
+
+Epoch  9 | Loss: 0.8070 | Time: 5.0s
+
+Epoch 10 | Loss: 0.8050 | Time: 5.8s
+
+Epoch 11 | Loss: 0.8032 | Time: 4.8s
+
+Epoch 12 | Loss: 0.8012 | Time: 6.0s
+
+Epoch 13 | Loss: 0.8005 | Time: 4.9s
+
+Epoch 14 | Loss: 0.7986 | Time: 4.8s
+
+Epoch 15 | Loss: 0.7977 | Time: 6.0s
+  Run 2 Test Accuracy: 0.9086
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.0200 | Time: 4.8s
+
+Epoch  2 | Loss: 0.8554 | Time: 5.9s
+
+Epoch  3 | Loss: 0.8388 | Time: 4.9s
+
+Epoch  4 | Loss: 0.8291 | Time: 6.0s
+
+Epoch  5 | Loss: 0.8234 | Time: 4.8s
+
+Epoch  6 | Loss: 0.8175 | Time: 4.8s
+
+Epoch  7 | Loss: 0.8132 | Time: 6.0s
+
+Epoch  8 | Loss: 0.8102 | Time: 4.8s
+
+Epoch  9 | Loss: 0.8073 | Time: 6.1s
+
+Epoch 10 | Loss: 0.8053 | Time: 4.8s
+
+Epoch 11 | Loss: 0.8047 | Time: 5.6s
+
+Epoch 12 | Loss: 0.8020 | Time: 5.4s
+
+Epoch 13 | Loss: 0.8006 | Time: 4.9s
+
+Epoch 14 | Loss: 0.7993 | Time: 6.0s
+
+Epoch 15 | Loss: 0.7985 | Time: 4.8s
+  Run 3 Test Accuracy: 0.9079
+
+==================================================
+  Architecture: 1Bi-LSTM
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,210,908
+
+Epoch  1 | Loss: 1.0325 | Time: 6.2s
+
+Epoch  2 | Loss: 0.8596 | Time: 5.2s
+
+Epoch  3 | Loss: 0.8426 | Time: 6.2s
+
+Epoch  4 | Loss: 0.8337 | Time: 5.4s
+
+Epoch  5 | Loss: 0.8254 | Time: 5.7s
+
+Epoch  6 | Loss: 0.8185 | Time: 5.5s
+
+Epoch  7 | Loss: 0.8149 | Time: 5.2s
+
+Epoch  8 | Loss: 0.8112 | Time: 6.2s
+
+Epoch  9 | Loss: 0.8079 | Time: 5.4s
+
+Epoch 10 | Loss: 0.8052 | Time: 6.2s
+
+Epoch 11 | Loss: 0.8043 | Time: 5.2s
+
+Epoch 12 | Loss: 0.8019 | Time: 6.4s
+
+Epoch 13 | Loss: 0.8007 | Time: 5.1s
+
+Epoch 14 | Loss: 0.8001 | Time: 6.2s
+
+Epoch 15 | Loss: 0.7984 | Time: 5.4s
+  Run 1 Test Accuracy: 0.9089
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.0324 | Time: 6.2s
+
+Epoch  2 | Loss: 0.8578 | Time: 5.7s
+
+Epoch  3 | Loss: 0.8403 | Time: 5.7s
+
+Epoch  4 | Loss: 0.8302 | Time: 6.0s
+
+Epoch  5 | Loss: 0.8234 | Time: 5.3s
+
+Epoch  6 | Loss: 0.8177 | Time: 6.1s
+
+Epoch  7 | Loss: 0.8131 | Time: 5.3s
+
+Epoch  8 | Loss: 0.8091 | Time: 6.1s
+
+Epoch  9 | Loss: 0.8069 | Time: 5.4s
+
+Epoch 10 | Loss: 0.8039 | Time: 6.1s
+
+Epoch 11 | Loss: 0.8021 | Time: 5.2s
+
+Epoch 12 | Loss: 0.8010 | Time: 6.3s
+
+Epoch 13 | Loss: 0.7993 | Time: 5.3s
+
+Epoch 14 | Loss: 0.7985 | Time: 5.5s
+
+Epoch 15 | Loss: 0.7969 | Time: 6.1s
+  Run 2 Test Accuracy: 0.9084
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.0403 | Time: 5.1s
+
+Epoch  2 | Loss: 0.8569 | Time: 6.1s
+
+Epoch  3 | Loss: 0.8400 | Time: 5.1s
+
+Epoch  4 | Loss: 0.8308 | Time: 6.2s
+
+Epoch  5 | Loss: 0.8233 | Time: 5.1s
+
+Epoch  6 | Loss: 0.8182 | Time: 6.1s
+
+Epoch  7 | Loss: 0.8143 | Time: 5.1s
+
+Epoch  8 | Loss: 0.8095 | Time: 5.9s
+
+Epoch  9 | Loss: 0.8066 | Time: 5.6s
+
+Epoch 10 | Loss: 0.8045 | Time: 5.2s
+
+Epoch 11 | Loss: 0.8024 | Time: 6.2s
+
+Epoch 12 | Loss: 0.8016 | Time: 5.4s
+
+Epoch 13 | Loss: 0.7991 | Time: 6.1s
+
+Epoch 14 | Loss: 0.7980 | Time: 5.3s
+
+Epoch 15 | Loss: 0.7984 | Time: 6.4s
+  Run 3 Test Accuracy: 0.9089
+
+==================================================
+  Architecture: 2Bi-LSTM
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 2,310,236
+
+Epoch  1 | Loss: 0.9895 | Time: 5.5s
+
+Epoch  2 | Loss: 0.8568 | Time: 6.7s
+
+Epoch  3 | Loss: 0.8432 | Time: 5.4s
+
+Epoch  4 | Loss: 0.8334 | Time: 6.7s
+
+Epoch  5 | Loss: 0.8267 | Time: 5.5s
+
+Epoch  6 | Loss: 0.8219 | Time: 6.6s
+
+Epoch  7 | Loss: 0.8176 | Time: 5.4s
+
+Epoch  8 | Loss: 0.8128 | Time: 6.6s
+
+Epoch  9 | Loss: 0.8101 | Time: 5.9s
+
+Epoch 10 | Loss: 0.8074 | Time: 6.7s
+
+Epoch 11 | Loss: 0.8051 | Time: 5.7s
+
+Epoch 12 | Loss: 0.8034 | Time: 6.7s
+
+Epoch 13 | Loss: 0.8018 | Time: 5.4s
+
+Epoch 14 | Loss: 0.8008 | Time: 6.1s
+
+Epoch 15 | Loss: 0.7999 | Time: 5.9s
+  Run 1 Test Accuracy: 0.9095
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 0.9811 | Time: 5.9s
+
+Epoch  2 | Loss: 0.8564 | Time: 5.9s
+
+Epoch  3 | Loss: 0.8417 | Time: 5.4s
+
+Epoch  4 | Loss: 0.8342 | Time: 6.5s
+
+Epoch  5 | Loss: 0.8266 | Time: 5.3s
+
+Epoch  6 | Loss: 0.8224 | Time: 6.5s
+
+Epoch  7 | Loss: 0.8174 | Time: 5.3s
+
+Epoch  8 | Loss: 0.8151 | Time: 6.4s
+
+Epoch  9 | Loss: 0.8110 | Time: 5.5s
+
+Epoch 10 | Loss: 0.8085 | Time: 6.5s
+
+Epoch 11 | Loss: 0.8060 | Time: 5.5s
+
+Epoch 12 | Loss: 0.8035 | Time: 6.8s
+
+Epoch 13 | Loss: 0.8033 | Time: 5.4s
+
+Epoch 14 | Loss: 0.8013 | Time: 6.5s
+
+Epoch 15 | Loss: 0.7998 | Time: 5.6s
+  Run 2 Test Accuracy: 0.9057
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 0.9815 | Time: 6.5s
+
+Epoch  2 | Loss: 0.8547 | Time: 5.5s
+
+Epoch  3 | Loss: 0.8420 | Time: 6.3s
+
+Epoch  4 | Loss: 0.8336 | Time: 5.9s
+
+Epoch  5 | Loss: 0.8274 | Time: 6.1s
+
+Epoch  6 | Loss: 0.8222 | Time: 6.1s
+
+Epoch  7 | Loss: 0.8171 | Time: 6.0s
+
+Epoch  8 | Loss: 0.8143 | Time: 6.4s
+
+Epoch  9 | Loss: 0.8105 | Time: 6.1s
+
+Epoch 10 | Loss: 0.8072 | Time: 6.1s
+
+Epoch 11 | Loss: 0.8059 | Time: 5.7s
+
+Epoch 12 | Loss: 0.8041 | Time: 6.6s
+
+Epoch 13 | Loss: 0.8046 | Time: 5.4s
+
+Epoch 14 | Loss: 0.8034 | Time: 6.5s
+
+Epoch 15 | Loss: 0.8014 | Time: 5.5s
+  Run 3 Test Accuracy: 0.9095
+
+Architecture      Mean Acc    Std Acc       Params   Time/Epoch
+--------------------------------------------------------------
+1RNN                0.8772     0.0167    2,136,284       5.49s
+1Bi-RNN             0.8756     0.0226    2,147,164       5.24s
+2Bi-RNN             0.8760     0.0113    2,171,996       5.44s
+1LSTM               0.9085     0.0004    2,168,156       5.32s
+1Bi-LSTM            0.9088     0.0002    2,210,908       5.71s
+2Bi-LSTM            0.9082     0.0018    2,310,236       6.01s
+
+################################################################################
+# RUNNING VARIATION: GloVe Frozen (AG News, 25 words)
+################################################################################
+
+Loading GloVe 6B-100d...
+GloVe vectors loaded. 20435/21254 words found.
+
+==================================================
+  Architecture: 1RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 10,884
+
+Epoch  1 | Loss: 1.0819 | Time: 4.5s
+
+Epoch  2 | Loss: 0.9013 | Time: 5.7s
+
+Epoch  3 | Loss: 0.8897 | Time: 4.6s
+
+Epoch  4 | Loss: 0.8820 | Time: 4.7s
+
+Epoch  5 | Loss: 0.8777 | Time: 5.6s
+
+Epoch  6 | Loss: 0.8779 | Time: 4.5s
+
+Epoch  7 | Loss: 0.8750 | Time: 5.5s
+
+Epoch  8 | Loss: 0.8744 | Time: 4.6s
+
+Epoch  9 | Loss: 0.8746 | Time: 4.7s
+
+Epoch 10 | Loss: 0.8745 | Time: 5.5s
+
+Epoch 11 | Loss: 0.8772 | Time: 4.7s
+
+Epoch 12 | Loss: 0.8818 | Time: 5.6s
+
+Epoch 13 | Loss: 0.8786 | Time: 4.5s
+
+Epoch 14 | Loss: 0.8747 | Time: 4.4s
+
+Epoch 15 | Loss: 0.8801 | Time: 5.6s
+  Run 1 Test Accuracy: 0.8417
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.0615 | Time: 4.6s
+
+Epoch  2 | Loss: 0.9029 | Time: 5.6s
+
+Epoch  3 | Loss: 0.8927 | Time: 4.5s
+
+Epoch  4 | Loss: 0.8855 | Time: 4.5s
+
+Epoch  5 | Loss: 0.8849 | Time: 5.6s
+
+Epoch  6 | Loss: 0.8829 | Time: 4.7s
+
+Epoch  7 | Loss: 0.8846 | Time: 5.6s
+
+Epoch  8 | Loss: 0.8838 | Time: 4.5s
+
+Epoch  9 | Loss: 0.8802 | Time: 4.7s
+
+Epoch 10 | Loss: 0.8873 | Time: 5.7s
+
+Epoch 11 | Loss: 0.8933 | Time: 4.5s
+
+Epoch 12 | Loss: 0.9151 | Time: 5.8s
+
+Epoch 13 | Loss: 0.9449 | Time: 4.6s
+
+Epoch 14 | Loss: 0.9498 | Time: 4.6s
+
+Epoch 15 | Loss: 0.9205 | Time: 5.7s
+  Run 2 Test Accuracy: 0.8347
+
+  --- Run 3/3 ---
+
+Epoch  1 | Loss: 1.0630 | Time: 4.5s
+
+Epoch  2 | Loss: 0.9000 | Time: 5.9s
+
+Epoch  3 | Loss: 0.8901 | Time: 4.5s
+
+Epoch  4 | Loss: 0.8836 | Time: 4.5s
+
+Epoch  5 | Loss: 0.8921 | Time: 5.6s
+
+Epoch  6 | Loss: 0.8936 | Time: 4.6s
+
+Epoch  7 | Loss: 0.8851 | Time: 5.8s
+
+Epoch  8 | Loss: 0.8976 | Time: 4.5s
+
+Epoch  9 | Loss: 0.9175 | Time: 4.7s
+
+Epoch 10 | Loss: 0.9697 | Time: 5.6s
+
+Epoch 11 | Loss: 0.9425 | Time: 4.6s
+
+Epoch 12 | Loss: 0.9036 | Time: 5.7s
+
+Epoch 13 | Loss: 0.8959 | Time: 4.7s
+
+Epoch 14 | Loss: 0.9169 | Time: 4.5s
+
+Epoch 15 | Loss: 0.9013 | Time: 5.6s
+  Run 3 Test Accuracy: 0.8439
+
+==================================================
+  Architecture: 1Bi-RNN
+==================================================
+
+  --- Run 1/3 ---
+  Parameters: 21,764
+
+Epoch  1 | Loss: 1.0806 | Time: 4.6s
+
+Epoch  2 | Loss: 0.9062 | Time: 5.9s
+
+Epoch  3 | Loss: 0.8906 | Time: 4.6s
+
+Epoch  4 | Loss: 0.8865 | Time: 4.6s
+
+Epoch  5 | Loss: 0.8822 | Time: 5.7s
+
+Epoch  6 | Loss: 0.8816 | Time: 4.8s
+
+Epoch  7 | Loss: 0.8795 | Time: 5.9s
+
+Epoch  8 | Loss: 0.8769 | Time: 4.6s
+
+Epoch  9 | Loss: 0.8739 | Time: 4.8s
+
+Epoch 10 | Loss: 0.8781 | Time: 5.9s
+
+Epoch 11 | Loss: 0.8747 | Time: 4.6s
+
+Epoch 12 | Loss: 0.8838 | Time: 5.6s
+
+Epoch 13 | Loss: 0.8852 | Time: 4.6s
+
+Epoch 14 | Loss: 0.8744 | Time: 4.9s
+
+Epoch 15 | Loss: 0.8739 | Time: 5.5s
+  Run 1 Test Accuracy: 0.8689
+
+  --- Run 2/3 ---
+
+Epoch  1 | Loss: 1.0564 | Time: 4.6s
+
+Epoch  2 | Loss: 0.9216 | Time: 5.7s
+
+Epoch  3 | Loss: 0.9184 | Time: 4.8s
+
+Epoch  4 | Loss: 0.8984 | Time: 5.2s
+
+Epoch 5:  20%|██        | 24/118 [00:01<00:04, 19.68it/s]
+
